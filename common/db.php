@@ -12,6 +12,5 @@ if($conn->connect_error){
     die("not connected with db ".$conn->connect_error);
 }
 
-echo "db connected successfully";
 
 ?>
