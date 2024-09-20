@@ -19,10 +19,10 @@ if(isset($_POST['signup'])){
     $result=$user->execute();
 
     if($result){
-        echo "new user regstered";
+        
         $_SESSION["user"]=["username"=>$username,"email"=>$email];
-
-
+        header("location: /discuss");
+        
     }else{
         echo "new user not registered";
     }
