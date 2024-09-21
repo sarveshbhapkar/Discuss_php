@@ -17,11 +17,10 @@
 
         <div class="sm-3 col-6 offset-sm-3 margin-bottom-15">
             <label for="description">Category</label>
-            <select class="form-control" name="Category" id="Category">
-                <option value="Mobiles">Mobiles</option>
-                <option value="general">general</option>
-                <option value="coding">coding</option>
-            </select>
+            <?php
+            include('category.php');
+            
+            ?>
         </div>
 
 
