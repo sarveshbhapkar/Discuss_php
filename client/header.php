@@ -17,6 +17,10 @@
                     <a class="nav-link" href="./server/requests.php?login=true">Logout</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="?ask=true">Ask a question</a>
+                </li>
+
             <?php }
             ?>
 
