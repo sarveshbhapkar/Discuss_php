@@ -9,3 +9,20 @@ a{
 .heading{
     text-align: center;
 }
+.question-list{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+
+}
+.question-list a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #1c7194 !important;
+
+
+}
+.question-list h4{
+    margin: 0;
+    padding: 0;
+}
